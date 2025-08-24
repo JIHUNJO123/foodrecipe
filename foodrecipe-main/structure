@@ -1,0 +1,33 @@
+your-project-root/
+│
+├── assets/
+│   ├── logo.png
+│   └── avatar.png
+│
+├── src/
+│   ├── components/
+│   │   ├── categories.js
+│   │   └── recipes.js
+│   │
+│   ├── navigation/
+│   │   └── index.js
+│   │
+│   ├── redux/
+│   │   ├── favoritesSlice.js
+│   │   └── store.js
+│   │
+│   ├── screens/
+│   │   ├── WelcomeScreen.js
+│   │   ├── HomeScreen.js
+│   │   ├── MyRecipeScreen.js
+│   │   ├── CustomRecipesScreen.js
+│   │   ├── RecipesFormScreen.js
+│   │   ├── FavoriteScreen.js
+│   │   └── RecipeDetailScreen.js
+│   │
+│   └── App.js
+│
+├── package.json
+├── babel.config.js
+├── .gitignore
+└── README.md

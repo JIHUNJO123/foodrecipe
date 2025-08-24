@@ -1,0 +1,19 @@
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import AppNavigation from './navigation';
+
+export default function App() {
+  return (
+    <Provider store={store}>
+      <AppNavigation />
+    </Provider>
+  );
+}
+
+
+npm install @react-navigation/native @react-navigation/native-stack react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context react-redux @reduxjs/toolkit react-native-responsive-screen @react-native-async-storage/async-storage
+run:
+npx react-native run-android
+# or
+npx react-native run-ios
